@@ -59,7 +59,7 @@ a img {border: 0;}
 }
 
 body {
-    font: 16px/24px Georgia, serif;
+    font: 16px/24px "Helvetica Neue", Arial, Helvetica;
 }
 
 .small, small {
@@ -92,6 +92,20 @@ body {
     color: rgb(60,60,60);
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
+
+header {
+    margin-bottom: 24px;
+}
+
+a {
+    color: #c30;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
 
 
 
