@@ -77,20 +77,21 @@ body {-webkit-tap-highlight-color: rgb(255,255,158);}
 
 
 
-/*      Default Layout: 992px. 
+/*      Default Layout: 768px.
         Gutters: 24px.
-        Outer margins: 48px.
-        Leftover space for scrollbars @1024px: 32px.
--------------------------------------------------------------------------------
-cols    1     2      3      4      5      6      7      8      9      10
-px      68    160    252    344    436    528    620    712    804    896    */
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
 
 body {
-    width: 896px;
-    padding: 72px 48px 84px;
-    background: rgb(232,232,232);
-    color: rgb(60,60,60);
+    width: 712px;
+    padding: 48px 28px 60px;
+    background: #eee;
+    color: #444;
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+    margin: 0 auto;
 }
 
 header {
@@ -106,23 +107,28 @@ p {
     margin-bottom: 24px;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
 
+#about {
+    background: #ccc;
+    padding: 24px;
+    margin-bottom: 24px;
+}
 
+#form {
+    background: #ccc;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+}
 
-/*      Tablet Layout: 768px.
-        Gutters: 24px.
-        Outer margins: 28px.
-        Inherits styles from: Default Layout.
------------------------------------------------------------------
-cols    1     2      3      4      5      6      7      8
-px      68    160    252    344    436    528    620    712    */
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    
-    body {
-        width: 712px;
-        padding: 48px 28px 60px;
-    }
+#form input[type=text] {
+    font-size: 24px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 6px;
 }
 
 
