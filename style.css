@@ -59,7 +59,7 @@ a img {border: 0;}
 }
 
 body {
-    font: 16px/24px "Helvetica Neue", Arial, Helvetica;
+    font: 16px/24px Lato, 'Droid Sans', Calibri, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .small, small {
@@ -107,6 +107,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #aa2b00;
+}
+
 p {
     margin-bottom: 24px;
 }
@@ -139,7 +143,7 @@ p:last-child {
 #form input[type=text] {
     background: #fff;
     border-radius: 6px;
-    border: 1px solid #aaa;
+    border: none;
     color: #444;
     font: 24px/1 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 12px 12px;
@@ -147,19 +151,17 @@ p:last-child {
 }
 
 #form input[type=submit] {
-    background: #aaa;
+    background: #c30;
     border-radius: 6px;
     border: none;
     color: #fafafa;
     font: bold 24px/1 'Helvetica Neue', Arial, Helvetica, sans-serif;
     line-height: 42px;
     padding: 6px 12px;
-
 }
 
 #form input[type=submit]:hover {
-    background: #c30;
-    color: #fafafa;
+    background: #aa2b00;
 }
 
 
