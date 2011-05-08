@@ -88,7 +88,7 @@ px      68    160    252    344    436    528    620    712    */
 body {
     width: 712px;
     padding: 48px 28px 60px;
-    background: #eee;
+    background: url(images/bg.png) #ffe;
     color: #444;
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
     margin: 0 auto;
@@ -96,6 +96,10 @@ body {
 
 header {
     margin-bottom: 24px;
+}
+
+header h1 {
+    color: #f34d79;
 }
 
 a {
@@ -112,14 +116,14 @@ p:last-child {
 }
 
 #about {
-    background: #ccc;
+    background: #fad46f;
     margin-bottom: 24px;
     padding: 24px;
 
 }
 
 #form {
-    background: #ccc;
+    background: #00bfde;
     font-size: 24px;
     padding: 24px;
     text-align: center;
@@ -137,18 +141,16 @@ p:last-child {
     border-radius: 6px;
     border: 1px solid #aaa;
     color: #444;
-    display: inline-block;
     font: 24px/1 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 12px 12px;
 
 }
 
 #form input[type=submit] {
-    background: #bbb;
+    background: #aaa;
     border-radius: 6px;
     border: none;
     color: #fafafa;
-    display: inline-block;
     font: bold 24px/1 'Helvetica Neue', Arial, Helvetica, sans-serif;
     line-height: 42px;
     padding: 6px 12px;
